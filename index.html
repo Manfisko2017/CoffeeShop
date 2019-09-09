@@ -14,6 +14,35 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- <style>
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width:740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width:850px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+  </style> -->
 </head>
 
 <body>
@@ -35,36 +64,36 @@
             <a href="#" class="nav-link waves-effect">Field one</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Field one</a>
+            <a href="#" class="nav-link waves-effect">Field two</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">Field one</a>
+            <a href="#" class="nav-link waves-effect">Field three</a>
           </li>
         </ul>
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
             <a href="#" class="nav-link">
               <span class="badge red z-depth-1 mr-1">1</span>
-              <i class="fa fa-shopping-cart"></i>  
+              <i class="fa fa-shopping-cart"></i>
               <span class="clearfix d-none d-sm-inline-block">Cart</span>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="fab fa-facebook blue-text"></i>   
+              <i class="fab fa-facebook blue-text"></i>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="fab fa-twitter blue-text"></i>  
+              <i class="fab fa-twitter blue-text"></i>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="https://google.com" class="nav-link border border-light rounded">
-              <i class="fab fa-google blue-text"></i>  
+              <i class="fab fa-google blue-text"></i>
             </a>
           </li>
 
@@ -72,6 +101,175 @@
       </div>
     </div>
   </nav>
+
+  <div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+      <li data-target="#carousel-ex" data-slide-to="1"></li>
+      <li data-target="#carousel-ex" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/12/10/44/power-597169_960_720.jpg');
+        background-repeat:no-repeat; background-size: cover; background-position-y: -50px">
+          <div class="mask pattern-6 d-flex justify-content-center aling-items-center">
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong class="text-uppercase">power line</strong>
+              </h1>
+
+              <p>
+                <strong class="lead"> Top components</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong class=" text-uppercase "> Most populars vendors in the electronics industry. Сreate your lines
+                  with
+                  <span class="red-text">power electric</span>
+                </strong>
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://cdn.pixabay.com/photo/2017/09/11/17/49/help-2739808_960_720.jpg');
+        background-repeat:no-repeat; background-size: cover; background-position-y: -300px">
+          <div class="mask pattern-6 d-flex justify-content-center aling-items-center">
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong class="text-uppercase">power line</strong>
+              </h1>
+
+              <p class="lead">
+                <strong> Сontact us and we will call you back</strong>
+              </p>
+
+              <!-- <p class="mb-4 d-none d-md-block">
+                <strong> contact us and we will call you back
+                </strong>
+              </p> -->
+
+              <a href="#" class="btn btn-outline-white btn-lg text-uppercase ">
+                <span class="green-text">call me</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://cdn.pixabay.com/photo/2014/02/24/15/15/electric-power-273644_960_720.jpg');
+        background-repeat:no-repeat; background-size: cover; background-position-y: -100px;">
+          <div class="mask pattern-6 d-flex justify-content-center aling-items-center">
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong class="text-uppercase">power line</strong>
+              </h1>
+
+              <p>
+                <strong class="lead"> let your power flow</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#carousel-ex" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+
+    <a href="#carousel-ex" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+
+  </div>
+
+
+  <main>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5 ">
+        <span class="navbar-brand">Categories:</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nextNav"
+          aria-controls="nextNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="nextNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">ALL</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">TKA068</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">0.2A/10Kv</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">10A/10Kv</a>
+            </li>
+          </ul>
+
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <section class="text-center mb-4">
+        <div class="row wow fadeIn">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <img class="card-img-top" src="https://ua.all.biz/img/ua/catalog/1751257.jpeg" alt="">
+                <a href="">
+                  <div class="mask pattern-6"></div>
+                </a>
+              </div>
+
+              <div class="card-body text-center">
+                <a href="" class="grey-text">
+                  <h5>Cable</h5>
+                </a>
+
+
+                <h5><strong><a href="" class="dark-grey-text">Hi-volt Cable
+                      <span class="badge badge-pill danger-color">new</span>
+                    </a></strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">
+                  <strong>2$</strong>
+                </h4>
+
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+
+
+
   <!-- <div>
     <span class="navbar-brand waves-effect classSize"> #BLOCK </span> 
   </div> -->
