@@ -1,19 +1,28 @@
+
 html, body, .view{
     height: 100%;
 }
 
+/*
+
 .carousel{
-    height: 50%;
+    height: 40%;
 }
 
 .carousel .carousel-inner{
     height: 100%;
 }
 
+
+
 .carousel .carousel-inner .carousel-item,
 .carousel .carousel-inner .active{
     height: 100%;
 }
+
+
+
+
 
 /* @media (max-width:776px){
     .carousel{
